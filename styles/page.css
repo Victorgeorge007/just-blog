@@ -220,7 +220,7 @@ width: 45%;
 form input{
     border-radius: 10px;
     border: 0.5px solid rgba(0, 0, 0, 1);
-    /* padding: 20px 960px 20px 20px; */
+    width: 100%;
     margin: 0 0 20px;
 }
 form input::placeholder{
@@ -230,6 +230,7 @@ form input::placeholder{
 textarea{
     border: 0.5px solid rgba(0, 0, 0, 1);
     border-radius: 10px;
+    width: 100%;
 }
 textarea::placeholder{
     color: rgba(0, 0, 0, 0.5);

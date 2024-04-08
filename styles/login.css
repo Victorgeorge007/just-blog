@@ -6,7 +6,7 @@
 
 .main-body-container{
     height: 100vh;
-    background-image: url(/assets/unsplash_FHnnjk1Yj7Y.jpg);
+    background-image: url(../assets/unsplash_FHnnjk1Yj7Y.jpg);
 
     background-size: cover;
     font-family: "work sans";
