@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Blog</title>
+    <link rel="stylesheet" href="/styles/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-body-content">
+
+        <nav class="navbar">
+            <h1><span class="just-text">Just</span><span class="blog-text">Blog</span></h1>
+            <div class="notifications-box">
+                <img src="assets/notification.svg" alt="notifications">
+               <a href="/pages/profile-page.html"> <img src="assets/vuesax/linear/user-square.svg" alt="profile-page"></a>
+            </div>
+        </nav>
+
+
+        <div class="actual-container">
+            <section class="first-grid">
+                <div class="search-cont">
+                    <input type="text" placeholder="Search" class="search-text">
+                    <div class="hamburg-svg"><img src="/assets/menu.svg" alt="hamburger-menu"></div>
+                </div>
+               
+                <ul class="list-elements">
+                    <li>Categories</li>
+                    <a href="/pages/create-post.html"><li>Make a Post</li></a>
+                    <li>Culture</li>
+                    <li>Creativity</li>
+                    <li>Food</li>
+                    <li>Travel</li>
+                    <li>Sports</li>
+                    <li>More...</li>
+                </ul>
+
+                <div class="trending-box">
+                    <p class="numbered">Trending</p>
+                    <ul>
+                        <li>
+                            <p class="numbered">1</p>
+                            <div>
+                                <p class="strengthened-text">Sensational Anthony Joshua`s K.O punch</p>
+                                <p class="light-text">SPORT - MAR 10, 2024</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="numbered">2</p>
+                            <div>
+                                <p class="strengthened-text">Diego Rasmus art work </p>
+                                <p class="light-text">CREATIVITY - MAR 12, 2024</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="numbered">3</p>
+                            <div>
+                                <p class="strengthened-text">Faith Has finally gone Global</p>
+                                <p class="light-text">FOOD - MAR 13, 2024</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="numbered">4</p>
+                            <div>
+                                <p class="strengthened-text">Herbert Wigwe and his legacy</p>
+                                <p class="light-text">FINANCE - MAR FINANCE - MAR 17, 2024</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="numbered">5</p>
+                            <div>
+                                <p class="strengthened-text">Donald Trump wins Texas RP primaries</p>
+                                <p class="light-text">POLITICS - MAR 11, 2024</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section class="second-grid" id="second-grid">
+
+                <!-- <div class="blog-contents">
+                    <img src="assets/Rectangle 7.jpg" alt="" class="blog-desk-img">
+                    <div class="other-sects">
+                        <p class="section">Food</p>
+                        <p class="headline">Faith has finally gone global</p>
+                        <p class="about">With unwavering determination, Faith rose through the ranks of the culinary world.....</p>
+                        <div>
+                            <button class="read-btn">Read more</button>
+                           </div>
+                    </div>
+                </div>
+                <div class="blog-contents">
+                    <img src="assets/Rectangle 10.jpg" alt="" class="blog-desk-img">
+                    <div class="other-sects">
+                        <p class="section">Sport</p>
+                        <p class="headline">Sensational Anthony Joshua’s K.O punch</p>
+                        <p class="about">Anthony Joshua’s victory over Francis Ngannou electrified the world of combat sports.....</p>
+                        <div>
+                            <button class="read-btn">Read more</button>
+                           </div>
+                    </div>
+                </div>
+               <div class="blog-contents">
+                    <img src="assets/Rectangle 11.jpg" alt="" class="blog-desk-img">
+                    <div class="other-sects">
+                        <p class="section">ARTS AND CREATIVITY</p>
+                        <p class="headline">Diego Rasmus art work </p>
+                        <p class="about">From the bustling streets of his small hometown to the grand galleries of the world's capitals......</p>
+                        <div>
+                            <button class="read-btn">Read more</button>
+                           </div>
+                    </div>
+                </div>
+                <div class="blog-contents">
+                    <img src="assets/Rectangle 10 (1).jpg" alt="" class="blog-desk-img">
+                    <div class="other-sects">
+                        <p class="section">POLITICS</p>
+                        <p class="headline">Trump wins Texas primaries</p>
+                        <p class="about">Donald trump has swept all republican primaries ticket with a landslide victory.....</p>
+                        <div>
+                            <button class="read-btn">Read more</button>
+                           </div>
+                    </div>
+                </div>
+                <div class="blog-contents">
+                    <img src="assets/Rectangle 10 (2).jpg" alt="" class="blog-desk-img">
+                    <div class="other-sects">
+                        <p class="section">EDUCATION</p>
+                        <p class="headline">Nigerian student loan update</p>
+                        <p class="about">Nigerian govt postpones launch of students loan indefinitelyy.....</p>
+                        <div>
+                            <button class="read-btn">Read more</button>
+                           </div>
+                    </div>
+                </div>
+                <div class="blog-contents">
+                    <img src="assets/Rectangle 10 (3).jpg" alt="" class="blog-desk-img">
+                    <div class="other-sects">
+                        <p class="section">SPORT</p>
+                        <p class="headline">Sarri resigns as lazio`s coach</p>
+                        <p class="about">Maurizio Sarri has resigned from his role as manager at Serie A side Lazio Roma after 5th defeat in a row.....</p>
+                        <div>
+                            <button class="read-btn">Read more</button>
+                           </div>
+                    </div>
+                </div>
+                <div class="blog-contents">
+                    <img src="assets/Rectangle 7.jpg" alt="" class="blog-desk-img">
+                    <div class="other-sects">
+                        <p class="section">Food</p>
+                        <p class="headline">Faith has finally gone global</p>
+                        <p class="about">With unwavering determination, Faith rose through the ranks of the culinary world.....</p>
+                        <div>
+                            <button class="read-btn">Read more</button>
+                           </div>
+                    </div>
+                </div>
+                <div class="blog-contents">
+                    <img src="assets/Rectangle 7.jpg" alt="" class="blog-desk-img">
+                    <div class="other-sects">
+                        <p class="section">Food</p>
+                        <p class="headline">Faith has finally gone global</p>
+                        <p class="about">With unwavering determination, Faith rose through the ranks of the culinary world.....</p>
+                        <div>
+                            <button class="read-btn">Read more</button>
+                           </div>
+                    </div>
+                </div>  -->
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="first-footer">
+            <h3>Let's update you</h3>
+            <p>Drop your email below to get updates from us on latest happenings</p>
+            <input type="email" name="" id="" placeholder="Enter your email" class="search-text">
+           <div>
+            <button class="footer-btn">Submit</button>
+           </div>
+        </div>
+
+        <div>
+            <p class="footer-strong">Navigation</p>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Culture</li>
+                <li>Creativity</li>
+                <li>Travel</li>
+            </ul>
+        </div>
+        <div>
+            <p class="footer-strong">Platform</p>
+            <ul>
+                <li>Trending</li>
+                <li>Food</li>
+                <li>Music</li>
+            </ul>
+        </div>
+        <div>
+            <p class="footer-strong">Support</p>
+            <ul>
+                <li>Client Care</li>
+                <li>Contact</li>
+                <li>Terms & Conditions</li>
+            </ul>
+        </div>
+        <div>
+            <p class="footer-strong">Follow Us</p>
+            <ul>
+                <li><img src="assets/Vector (8).svg" alt="facebook"></li>
+                <li><img src="assets/skill-icons_instagram.svg" alt="instagram"></li>
+                <li><img src="assets/skill-icons_instagram (1).svg" alt=""></li>
+            </ul>
+        </div>
+
+    </footer>
+    <script src="/mine.js"></script>
+</body>
+</html>

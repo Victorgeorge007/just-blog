@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lora";
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.1);
+
+}
+.nav-logo{
+    text-transform: capitalize;
+    color:rgba(222, 143, 95, 1);
+    font-weight: 500;
+    font-size: 32px;
+}
+.nav-logo span{
+    color: rgba(244, 223, 182, 1);
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.nav-icon img{
+    width: 30px;
+}
+.hero h1{
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.hero img{
+    width: 100%;
+}
+.article{
+    margin: 40px 100px;
+}
+.indent_p{
+    text-indent: 40px;
+}
+
+.article_p{
+    margin: 0;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.links a{
+    text-decoration: none;
+}
+.share-link{
+    background-color: rgba(195, 178, 146, 1);
+    color: rgba(254, 252, 248, 1);
+    font-weight: 400;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    text-transform: capitalize;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px 0;
+}
+.share-link img{
+    width: 20px;
+}
+.x-link{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(254, 252, 248, 1);
+    font-weight: 400;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    text-transform: capitalize;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px 0;
+}
+.x-link img{
+    width: 20px;
+}
+
+.fb-link {
+    background-color: rgba(61, 90, 152, 1);
+    color: rgba(254, 252, 248, 1);
+    font-weight: 400;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    text-transform: capitalize;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px 0;
+}
+.fb-link img{
+    width: 14px;
+}
+.whatsapp-link{
+    background-color: rgba(55, 178, 52, 1);
+    color: rgba(254, 252, 248, 1);
+    font-weight: 400;
+    width: 100px;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    display: flex;
+    text-transform: capitalize;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px 0;
+}
+.whatsapp-link img{
+    width: 20px;
+}
+.inner_e{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.first_hr{
+    border: 2px solid rgba(222, 143, 95, 1);
+    margin: 10px 0;
+}
+.article h3{
+text-transform: capitalize;
+margin: 30px 0;
+}
+.text h4{
+    margin-top:20px ;
+}
+.disclaimer{
+    background: rgba(112, 0, 9, 1);
+    padding: 20px;
+    margin: 40px 0;
+}
+.disclaimer h4{
+    color: rgba(255, 255, 255, 1);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.disclaimer p{
+    color: rgba(255, 255, 255, 1);
+}
+.second_hr{
+border: 1px solid rgba(87, 0, 7, 1);
+width: 45%;
+}
+.profile_circle{
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+}
+.first_p{
+    color: rgba(87, 0, 7, 1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0 10px;
+}
+.span_1{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.span_2{
+    font-size: 13px;
+}
+.second_p{
+    color: rgba(87, 0, 7, 1);
+    font-size: 13px;
+}
+.third_p{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 0;
+}
+.tp_1{
+    color: rgba(254, 252, 248, 1);
+    background: rgba(112, 0, 9, 1);
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment .button{
+    padding: 15px 40px;
+    color: rgba(85, 78, 64, 1);
+    border-radius: 10px;
+    border: 0.5px solid rgba(85, 78, 64, 1);
+    background: white;
+    cursor: pointer;
+}
+form input{
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    /* padding: 20px 960px 20px 20px; */
+    margin: 0 0 20px;
+}
+form input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+textarea{
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+textarea::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    padding: 20px;
+}
+.a_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.a_flex input{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.a_flex .button{
+    border:0.5px solid rgba(85, 78, 64, 1);
+    border-radius: 10px;
+    padding: 20px 40px;
+    background: rgba(112, 0, 9, 1);
+    color: rgba(252, 244, 239, 1);
+    font-weight: 700;
+    cursor: pointer;
+}
+.anonymous span{
+    text-transform: capitalize;
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 100px;
+    padding: 40px 60px;
+    background: rgba(112, 0, 9, 1);
+    margin: 30px 0 0;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins";
+}
+.update h4{
+    padding: 0 0 20px;
+    font-size: 24px;
+}
+.update p{
+    margin: 10px 0;
+}
+.update input{
+    padding: 10px 160px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+}
+.update input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.update .s_btn .button{
+    background: rgba(61, 90, 152, 1);
+    border-radius: 10px;
+    border: none;
+    color:rgba(252, 244, 239, 1);
+    padding: 10px 30px ;
+    margin-top: 10px;
+    font-family: "Lora";
+    cursor: pointer;
+}
+.navigate{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+.navigate h5{
+    font-size: 16px;
+}
+.navigate ul{
+    list-style: none;
+}
+.navigate li{
+    margin: 20px 0;
+    white-space: nowrap;
+}
+.navi h5{
+    margin: 0 0 20px;
+}
+.follow h5{
+margin-bottom: 20px;
+font-size: 16px;
+}
+.img1{
+    padding: 0 10px 0 0;
+}
+.img2{
+    padding: 0 10px 0 0;
+}

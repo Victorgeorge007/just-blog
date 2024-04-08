@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 16px 0px #0000001A;
+
+}
+.notifications-box{
+    display: flex;
+    gap: 30px;
+}
+.just-text{
+    color: #DE8F5F;
+    font-family: "lora";
+    font-weight: 500;
+
+}
+.blog-text{
+    color: #F4DFB6;
+    font-family: "lora";
+    font-weight: 500;
+
+}
+.actual-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 60px 80px;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.first-grid{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    align-self: self-start;
+}
+
+.search-text{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 1px 16px 0px #0000001A;
+    padding: 5px 10px;
+
+}
+.search-cont{
+    display: flex;
+}
+.hamburg-svg{
+    display: none;
+}
+.list-elements{
+    list-style: none;
+    box-shadow: 0px 1px 16px 0px #0000001A;
+    font-family: "lora";
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.trending-box{
+    box-shadow: 0px 1px 16px 0px #0000001A;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.trending-box ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.trending-box ul li{
+    display: flex;
+    align-items: center;
+   gap: 20px;
+}
+.numbered{
+    font-size: 36px;
+    font-family: "lora";
+    font-weight: 700;
+}
+.strengthened-text{
+    font-family: "lora";
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.light-text{
+    font-family: "work sans";
+    font-weight: 500;
+    color: #757B83;
+}
+.second-grid{
+    grid-column: 5/-1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-self: self-start;
+}
+.blog-contents{
+    box-shadow: 0px 1px 16px 0px #0000001A;
+
+}
+.blog-desk-img{
+    width: 100%;
+}
+.section{
+    font-family: "work sans";
+    font-weight: 500;
+    color: #757B83;
+    font-size: 10px;
+}
+.headline{
+    font-family: "lora";
+    font-weight: 500;
+}
+.about{
+    font-family: "work sans";
+    font-weight: 400;
+    font-size: 10px;
+}
+.other-sects{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.read-btn{
+    background: #C6000F;
+    font-family: "work sans";
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+.footer{
+    background: #700009;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 80px;
+    font-family: "poppins";
+    color: white;
+    gap: 30px;
+    
+
+}
+.footer-strong{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+}
+.first-footer{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-btn{
+    background: #3D5A98;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:450px){
+    .navbar{
+        width: 100%;
+        padding: 20px 10px;
+    } 
+    
+    .actual-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 0px;
+        gap: 0px;
+        margin-bottom: 50px;
+    }
+    .second-grid{
+        grid-column: 5/-1;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        /* margin: 0; */
+        /* padding: 0; */
+    }
+    .search-cont{
+        display: flex;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .hamburg-svg{
+        display: block;
+    }
+}
